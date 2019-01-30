@@ -1,2 +1,2 @@
 git+git://github.com/Rapptz/discord.py.git@async#egg=discord 
-pip install pychalk
+git+git://github.com/anthonyalmarza/chalk.git@async#egg=discord 
