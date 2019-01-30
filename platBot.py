@@ -156,4 +156,4 @@ async def joke(ctx):
 #    await bot.say(":boot: Cya, {}. Ya loser!".format(user.name))
 #    await bot.kick(user)
 
-bot.run(TOKEN)
+bot.run(os.environ.get('TOKEN'))
